@@ -1,0 +1,44 @@
+.body {
+  background-color: #000;
+}
+
+.button {
+  display: inline-block;
+  width: 35%;
+  margin-top: 19px;
+  margin-right: auto;
+  margin-left: 10%;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.scroll_sequence {
+  position: static;
+  overflow: scroll;
+  width: 125%;
+  height: 100%;
+}
+
+.brain {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.lottie-animation {
+  margin-top: -14vh;
+}
+
+.clickable {
+  position: absolute;
+  width: 40vw;
+  height: 100%;
+  margin-left: 38px;
+  
+}

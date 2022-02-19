@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://webflow.com/design/jiayis-groovy-site);
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size: 14px;
+}
+
+.zaoc{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  top: 15%;
+  left: 55%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0 20px;
+}
+
+.cool-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.home {
+  position: absolute;
+  width: 100%;
+  top: 8%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.headline {
+  display: flex;
+  position: absolute;
+  width: 539px;
+  height: 72px;
+  right: 5%;
+  top: 500%;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  line-height: 84%;
+}
+
+.one {
+  position: flex;
+  width: 370px;
+  margin-left: 940px;
+  margin-top: 320px;
+}
+
+.yu {
+  position: absolute;
+  width: 409px;
+  margin-left: -550px;
+  margin-top: 590px;
+}
+
+.core {
+  position: absolute;
+  left: 10%;
+  top: 384px;
+
+  font-family: Bebas Neue;
+  font-size: 144px;
+  line-height: 84%;
+}
+
+.zao,
+.zine,
+.studio-one,
+.nysm{
+  border: 1px solid black;
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 1rem;
+}
+
+hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zao-container,
+.concrete,
+.studio-container,
+.nysm-container{
+  display: flex;
+  overflow-x: visible;
+}
+
+.zao-image{
+  width: 399px;
+  height: auto;
+  align-items: center;
+}
+
+.sto-image{
+  width: auto;
+  height: 200px;
+}
+
+.collapsible {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 15%;
+  width: 39.75%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 10px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  /* display: none; */
+  overflow: hidden;
+  margin-left: 15%;
+  width: 37.5%;
+  height: 90vh;
+  background-color: #f1f1f1;
+  overflow-y: visible;
+  /* position: absolute; top: 70%; */
+}
+
+.zine,
+.studio-one {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  background: lightgray;
+}

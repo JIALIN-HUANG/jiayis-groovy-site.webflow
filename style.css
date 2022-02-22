@@ -31,11 +31,20 @@ li {
 li a {
   text-decoration: none;
   display: inline-block;
-  color: black;
+  color: white;
   font-family: "Bebas Neue", cursive;
   font-weight: lighter;
   font-size: 50px;
   padding: 0 20px;
+}
+
+.cool-link {
+  background-color: white;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: visible;
+  height: 90vh;
+  /* border: 90px; */
 }
 
 .cool-link::after {
@@ -43,8 +52,7 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: white;
-  transition: width 0.3s;
+  background: white !important;
 }
 
 .home {
@@ -132,13 +140,14 @@ hr {
 
 .collapsible {
   background-color: white;
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   color: black;
   cursor: pointer;
   padding: 5px;
   margin-top: 10px;
-  margin-left: 15%;
-  width: 39.75%;
+  margin-left: 2%;
+  width: 32.75%;
   border: none;
   text-align: left;
   outline: none;
@@ -147,6 +156,15 @@ hr {
 
 .active, .collapsible:hover {
   background-color: #555;
+}
+
+.anima{
+  z-index:1;
+}
+
+.clickable{
+  z-index:2;
+  position: absolute;
 }
 
 .content {

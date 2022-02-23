@@ -40,11 +40,11 @@ li a {
 
 .cool-link {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   overflow: hidden;
   overflow-y: visible;
   height: 90vh;
-  /* border: 90px; */
+  border: 70px; 
 }
 
 .cool-link::after {
@@ -138,6 +138,10 @@ hr {
   height: 200px;
 }
 
+h1{
+  font-size: 0.5rem;
+}
+
 .collapsible {
   background-color: white;
   position: relative;
@@ -151,7 +155,8 @@ hr {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 10px;
+
+  z-index: 1;
 }
 
 .active, .collapsible:hover {
@@ -160,10 +165,12 @@ hr {
 
 .anima{
   z-index:1;
+  margin-top: -10vh !important;
+  height: 100vh;
 }
 
 .clickable{
-  z-index:2;
+  z-index:4;
   position: absolute;
 }
 
@@ -185,4 +192,14 @@ hr {
   font-family: 'Montserrat', sans-serif;
   border: 1px solid black;
   background: lightgray;
+}
+
+.intro{
+position: fixed;
+bottom: var(--panel-gap);
+right: 24px;
+max-width: 280px;
+transition: 0.3s opacity ease-in-out;
+color: white;
+z-index: 3;
 }

@@ -31,10 +31,6 @@
   object-fit: fill;
 }
 
-.lottie-animation {
-  margin-top: -14vh;
-}
-
 .clickable {
   position: absolute;
   width: 40vw;

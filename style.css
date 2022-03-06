@@ -106,7 +106,8 @@ ul {
 .zao,
 .zine,
 .studio-one,
-.nysm{
+.nysm,
+.threeD{
   border: 1px solid black;
   display: flex;
   overflow-x: scroll;
@@ -122,7 +123,8 @@ hr {
 .zao-container,
 .concrete,
 .studio-container,
-.nysm-container{
+.nysm-container,
+.threeD-container{
   display: flex;
   overflow-x: visible;
 }
@@ -135,7 +137,8 @@ hr {
 
 .sto-image{
   width: auto;
-  height: 200px;
+  height: 400px;
+  padding-right: 20px;
 }
 
 h1{
@@ -202,4 +205,10 @@ max-width: 280px;
 transition: 0.3s opacity ease-in-out;
 color: white;
 z-index: 3;
+}
+
+.threeD-container{
+  width: 399px;
+  height: auto;
+  align-items: center;
 }
